@@ -1,4 +1,7 @@
+# Laboratorio 1
 Enzo Porto e Mello - 221006727
+
+## Imagens
 <img width="650" height="490" alt="Captura_de_tela_de_2026-05-06_21-21-44" src="https://github.com/user-attachments/assets/de60296d-cf33-43c7-af70-0053e9aa05f0" />
 .
 <img width="1092" height="980" alt="image" src="https://github.com/user-attachments/assets/89d1247e-065c-454d-9419-e9fa8452b374" />
@@ -16,6 +19,12 @@ Enzo Porto e Mello - 221006727
 <img width="830" height="185" alt="7" src="https://github.com/user-attachments/assets/2a9581e0-4ce1-420a-a634-0a66dd73ef15" />
 .
 <img width="830" height="185" alt="8" src="https://github.com/user-attachments/assets/f77aece6-1a88-4a78-af63-4ff3b4cf988b" />
+
+## Codigos
+'''bash
+openssl enc -aes-256-ecb -salt -pbkdf2 -in texto.txt -out texto_ecb.enc
+'''
+
 
 Questão 1 
 
