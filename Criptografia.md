@@ -21,9 +21,9 @@ Enzo Porto e Mello - 221006727
 <img width="830" height="185" alt="8" src="https://github.com/user-attachments/assets/f77aece6-1a88-4a78-af63-4ff3b4cf988b" />
 
 ## Codigos
-'''bash
+```bash
 openssl enc -aes-256-ecb -salt -pbkdf2 -in texto.txt -out texto_ecb.enc
-'''
+```
 - _openssl_ chama o programa OpenSSL, que é uma ferramente de criptografia
 - _enc_ fala para o OpenSSL para usar a função de encryption, ou seja, decifrar ou cifrar arquivos.
     - _-d_ seria para colocar no modo de decifrar, sem isso ele entende que é para criptografar.
