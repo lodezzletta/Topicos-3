@@ -38,23 +38,23 @@ openssl enc -aes-256-ecb -salt -pbkdf2 -in texto.txt -out texto_ecb.enc
 - ```_-out texto_ecb.enc_``` define o arquivo de saída.
 
 ## Perguntas
-Questão 1 
+__Questão 1__ 
 
   O modo que apresentou o melhor desempenho na cifragem foi o OFB com tempo de 5,262 segundos.
 
-Questão 2
+__Questão 2__
 
   O ECB é inseguro pois ele criptografa blocos de texto idênticos em blocos de texto cifrado idênticos, ou seja, ele usa padrões reptidos para criptografar. Assim a estrutura dos dados podem ser revelados.
 
-Questão 3
+__Questão 3__
 
   Os modos mais adequados seriam o CTR, CFB e OFB, ja que permitem cifrar dados em sequência e geralmente os dados transmitidos na redes são transmitidos em partes.
 
-Questão 4
+__Questão 4__
 
   O Chacha20 cifra em fluxo de bits pseudoaleatorios. E o AES cifra em blocos de dados simétricos e se utiliza desses modos usados no laboratorio: ECB, CBC, CFB, OFB ou CTR.
 
-Questão 5
+__Questão 5__
 
   O Laboratorio mostra na prática como a criptografia simétrica é utilizada. E o TLS, IPsec e VPNs utilizam criptografias simétricas para proteger seus dados.
 
