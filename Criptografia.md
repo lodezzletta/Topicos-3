@@ -24,7 +24,7 @@ Enzo Porto e Mello - 221006727
 ```bash
 openssl enc -aes-256-ecb -salt -pbkdf2 -in texto.txt -out texto_ecb.enc
 ```
-- ```bash_openssl_ ``` chama o programa OpenSSL, que é uma ferramente de criptografia
+- ``` _openssl_ ``` chama o programa OpenSSL, que é uma ferramente de criptografia
 -```bash _enc_ ``` fala para o OpenSSL para usar a função de encryption, ou seja, decifrar ou cifrar arquivos.
     -```bash _-d_``` seria para colocar no modo de decifrar, sem isso ele entende que é para criptografar.
 - ```bash_-aes-256-ecb_```
