@@ -1,11 +1,19 @@
 <img width="650" height="490" alt="Captura_de_tela_de_2026-05-06_21-21-44" src="https://github.com/user-attachments/assets/de60296d-cf33-43c7-af70-0053e9aa05f0" />
+
 <img width="1092" height="980" alt="image" src="https://github.com/user-attachments/assets/89d1247e-065c-454d-9419-e9fa8452b374" />
+
 <img width="1564" height="314" alt="2" src="https://github.com/user-attachments/assets/5e8b144c-2ff4-4fa5-9c5a-2bf57679a0af" />
+
 <img width="849" height="139" alt="3" src="https://github.com/user-attachments/assets/9d0646f8-ab97-4c88-8518-a28930592064" />
+
 <img width="830" height="185" alt="4" src="https://github.com/user-attachments/assets/7041e2a5-0c77-4ab1-9062-4e6bb5584118" />
+
 <img width="830" height="185" alt="5" src="https://github.com/user-attachments/assets/43ffb084-3ce5-456e-8b57-13e2e634a7e2" />
+
 <img width="830" height="185" alt="6" src="https://github.com/user-attachments/assets/cb8722cc-90f2-4970-94b7-c148b5ccd1a8" />
+
 <img width="830" height="185" alt="7" src="https://github.com/user-attachments/assets/2a9581e0-4ce1-420a-a634-0a66dd73ef15" />
+
 <img width="830" height="185" alt="8" src="https://github.com/user-attachments/assets/f77aece6-1a88-4a78-af63-4ff3b4cf988b" />
 
 
