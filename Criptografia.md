@@ -16,19 +16,24 @@
 .
 <img width="830" height="185" alt="8" src="https://github.com/user-attachments/assets/f77aece6-1a88-4a78-af63-4ff3b4cf988b" />
 
-Questão 1
+Questão 1 
+
   O modo que apresentou o melhor desempenho na cifragem foi o OFB com tempo de 5,262 segundos.
 
 Questão 2
+
   O ECB é inseguro pois ele criptografa blocos de texto idênticos em blocos de texto cifrado idênticos, ou seja, ele usa padrões reptidos para criptografar. Assim a estrutura dos dados podem ser revelados.
 
 Questão 3
+
   Os modos mais adequados seriam o CTR, CFB e OFB, ja que permitem cifrar dados em sequência e geralmente os dados transmitidos na redes são transmitidos em partes.
 
 Questão 4
+
   O Chacha20 cifra em fluxo de bits pseudoaleatorios. E o AES cifra em blocos de dados simétricos e se utiliza desses modos usados no laboratorio: ECB, CBC, CFB, OFB ou CTR.
 
 Questão 5
-  o Laboratorio mostra na prática como a criptografia simétrica é utilizada. E o TLS, IPsec e VPNs utilizam criptografias simétricas para proteger seus dados.
+
+  O Laboratorio mostra na prática como a criptografia simétrica é utilizada. E o TLS, IPsec e VPNs utilizam criptografias simétricas para proteger seus dados.
 
 
