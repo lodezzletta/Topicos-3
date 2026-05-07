@@ -25,17 +25,17 @@ Enzo Porto e Mello - 221006727
 openssl enc -aes-256-ecb -salt -pbkdf2 -in texto.txt -out texto_ecb.enc
 ```
 - ``` _openssl_ ``` chama o programa OpenSSL, que é uma ferramente de criptografia
--```bash _enc_ ``` fala para o OpenSSL para usar a função de encryption, ou seja, decifrar ou cifrar arquivos.
-    -```bash _-d_``` seria para colocar no modo de decifrar, sem isso ele entende que é para criptografar.
-- ```bash_-aes-256-ecb_```
-    - ```bash_aes_``` algoritmo de criptografia.
-    - ```bash_256_``` tamanho da chave, 256 bits.
-    - ```bash_ecb_, _ctr_, _ofb_``` etc modos de operação.
-- ```bash_-salt_``` é um valor aleatório usado junto com a senha para gerar a chave criptográfica, no qual evita que duas pessoas usando a mesma senha gerem exatamente a mesma chave.
--```bash _-pbkdf2_ ``` faz o OpenSSL usar o método PBKDF2 para transformar sua senha em uma chave criptográfica.
+-``` _enc_ ``` fala para o OpenSSL para usar a função de encryption, ou seja, decifrar ou cifrar arquivos.
+    -``` _-d_``` seria para colocar no modo de decifrar, sem isso ele entende que é para criptografar.
+- ```_-aes-256-ecb_```
+    - ```_aes_``` algoritmo de criptografia.
+    - ```_256_``` tamanho da chave, 256 bits.
+    - ```_ecb_, _ctr_, _ofb_``` etc modos de operação.
+- ```_-salt_``` é um valor aleatório usado junto com a senha para gerar a chave criptográfica, no qual evita que duas pessoas usando a mesma senha gerem exatamente a mesma chave.
+-``` _-pbkdf2_ ``` faz o OpenSSL usar o método PBKDF2 para transformar sua senha em uma chave criptográfica.
     - Quando você digita uma senha, que nesse caso foi teste123, ela não é usada diretamente como chave AES. O OpenSSL precisa derivar uma chave de 256 bits a partir dessa senha, e o _-pbkdf2_ faz isso de forma mais segura.
-- ```bash_-in texto.txt_ ``` define o arquivo de entrada.
-- ```bash_-out texto_ecb.enc_``` define o arquivo de saída.
+- ```_-in texto.txt_ ``` define o arquivo de entrada.
+- ```_-out texto_ecb.enc_``` define o arquivo de saída.
 
 ## Perguntas
 Questão 1 
