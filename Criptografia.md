@@ -39,8 +39,8 @@ openssl enc -aes-256-ecb -salt -pbkdf2 -in texto.txt -out texto_ecb.enc
 -```_diff_``` foi usado para comparar o arquivo original com o arquivo decifrado. Quando o comando não retorna nenhuma saída, isso indica que os dois arquivos são idênticos. Assim, foi possível confirmar que o processo de cifragem e decifragem funcionou corretamente.
 - ```_time_``` mede quanto tempo um comando demora para executar.
     - ```_real_```  tempo total que passou no relógio.
-      ```_user_```  tempo gasto pelo processador executando o programa.
-      ```_sys_```   tempo gasto pelo sistema operacional.
+    - ```_user_```  tempo gasto pelo processador executando o programa.
+    - ```_sys_```   tempo gasto pelo sistema operacional.
 
 ## Perguntas
 __Questão 1__ 
